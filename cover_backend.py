@@ -3,7 +3,7 @@ from datetime import date
 from tkinter import messagebox
 
 def main(areas, proj_num, proj_title, directory, location, cover_date):
-    TEMPLATE_PATH = r"Q:\Standard Documents\Templates\CUTBOOK COVER.docx"
+    TEMPLATE_PATH = r"Q:\Standard Documents\Templates - Do not edit or move these files!\Cutbook Covers\CUTBOOK COVER.docx"
     print("template: {} \nproject: {} \nnumber:{} \ndirectory: {} \nlocation: {}"\
           .format(TEMPLATE_PATH, proj_title, proj_num, directory, location))
     for k,v in areas.items():

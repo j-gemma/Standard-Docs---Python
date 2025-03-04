@@ -5,13 +5,14 @@ a = Analysis(
     ['doc_gen_home.py'],
     pathex=[],
     binaries=[],
-    datas=[('C:/Users/jgemma/AppData/Local/Programs/Python/Python312/Lib/site-packages/docxcompose/templates/*', 'docxcompose/templates')],
+    datas=[('C:/Users/jgemma/AppData/Local/anaconda3/envs/fssdg/Lib/site-packages/docxcompose/templates/*', 'docxcompose/templates')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
     excludes=[],
     noarchive=False,
+    optimize=0,
 )
 pyz = PYZ(a.pure)
 
